@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return 'Hi ${name} Thanks for the follow. Just in case you are thinking of starting a small business, in need of a business plan, or need funding for your new/existing business check out our Small Business Startup Platform at https://www.canadastartups.org'; 
+  return `Thanks for the follow. Just in case you are thinking of starting a small business, in need of a business plan, or need funding for your new/existing business check out our Small Business Startup Platform at https://www.canadastartups.org`; 
   //return `Hi ${name} Thanks for following us \n Happy ${dayName} 😊😊 `; 
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
